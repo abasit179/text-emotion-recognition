@@ -3,6 +3,10 @@ echo ==========================================
 echo Updating GitHub Repository...
 echo ==========================================
 
+echo Pulling latest changes from GitHub...
+git pull origin main --no-edit
+
+echo.
 echo Adding files...
 git add .
 
